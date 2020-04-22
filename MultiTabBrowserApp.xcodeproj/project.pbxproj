@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18024EB0239E755F00557C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18024EAF239E755F00557C75 /* AppDelegate.swift */; };
+		18024EB9239E756100557C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18024EB8239E756100557C75 /* Assets.xcassets */; };
+		18024EBC239E756100557C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18024EBA239E756100557C75 /* LaunchScreen.storyboard */; };
+		18024EC5239E760000557C75 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18024EC3239E760000557C75 /* TabViewController.swift */; };
+		18024EC9239E786900557C75 /* TabViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18024EC8239E786900557C75 /* TabViewModel.swift */; };
+		1814229F239EE83700ED1A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1814229E239EE83700ED1A77 /* Main.storyboard */; };
+		1817F874239E929C005B98CC /* WebViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F872239E929C005B98CC /* WebViewCollectionViewCell.swift */; };
+		1817F875239E929C005B98CC /* WebViewCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1817F873239E929C005B98CC /* WebViewCollectionViewCell.xib */; };
+		1817F877239E978D005B98CC /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1817F876239E978D005B98CC /* UIView+Shadow.swift */; };
+		183768D5239E9D9A007911A7 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183768D3239E9D9A007911A7 /* WebViewController.swift */; };
+		18C4FF0A23A0006300D036FF /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C4FF0923A0006300D036FF /* UIViewController+Alert.swift */; };
+		18D0959F23A02C6700741C66 /* WKWebView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D0959E23A02C6700741C66 /* WKWebView+Loading.swift */; };
+		18D095A323A02EAB00741C66 /* String+WebProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D095A223A02EAB00741C66 /* String+WebProtocol.swift */; };
+		3C4CEF2F23A9501C007953F4 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4CEF2E23A9501C007953F4 /* CreditCard.swift */; };
+		3C4CEF3123A954E1007953F4 /* UITextField+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4CEF3023A954E1007953F4 /* UITextField+App.swift */; };
+		3C4CEF3323A95D6A007953F4 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4CEF3223A95D6A007953F4 /* Global.swift */; };
+		3C8B39AC23A91179008F84F1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B39AB23A91179008F84F1 /* ProfileViewController.swift */; };
+		3C8B39AE23A927A3008F84F1 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B39AD23A927A3008F84F1 /* TextField.swift */; };
+		3C8B39B123A93DCA008F84F1 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B39B023A93DCA008F84F1 /* Profile.swift */; };
+		3C9553B423B5F53D00D880BA /* WebViewController+FootAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9553B323B5F53D00D880BA /* WebViewController+FootAction.swift */; };
+		3C9553B623B6244600D880BA /* WebViewController+OffCenterOfficial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9553B523B6244600D880BA /* WebViewController+OffCenterOfficial.swift */; };
+		3C9553B823B6276E00D880BA /* WebViewController+FinishLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9553B723B6276E00D880BA /* WebViewController+FinishLine.swift */; };
+		3CA2D81C23B98D3F006416D5 /* UINavigationItem+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2D81B23B98D3F006416D5 /* UINavigationItem+App.swift */; };
+		3CA3227623A9BA8A00424947 /* WebViewController+YeezySupply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3227523A9BA8A00424947 /* WebViewController+YeezySupply.swift */; };
+		3CA3227823AA776500424947 /* ProfileViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA3227723AA776500424947 /* ProfileViewController+Delegates.swift */; };
+		3CBE6C4D23B276D8009A0460 /* WebViewController+Shopify.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBE6C4C23B276D8009A0460 /* WebViewController+Shopify.swift */; };
+		3CD99E9623ACD1B7006E9E98 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD99E9523ACD1B7006E9E98 /* AVFoundation.framework */; };
+		3CE6C21B23B159CF00519DA2 /* WebViewController+DicksSportingGoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6C21A23B159CF00519DA2 /* WebViewController+DicksSportingGoods.swift */; };
+		3CE6C21D23B15C6100519DA2 /* WebViewController+Adidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE6C21C23B15C6100519DA2 /* WebViewController+Adidas.swift */; };
+		3CFADE5E23A86A1A00A5351D /* 157611659742315354.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CFADE5B23A86A1900A5351D /* 157611659742315354.png */; };
+		3CFADE5F23A86A1A00A5351D /* horn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3CFADE5C23A86A1A00A5351D /* horn.wav */; };
+		3CFADE6023A86A1A00A5351D /* IMG_0955.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3CFADE5D23A86A1A00A5351D /* IMG_0955.JPG */; };
+		3CFADE6223A86A2800A5351D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFADE6123A86A2800A5351D /* GoogleService-Info.plist */; };
+		3CFADE6523A89C1F00A5351D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFADE6423A89C1F00A5351D /* GradientView.swift */; };
+		3CFADE6723A89E7900A5351D /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFADE6623A89E7900A5351D /* CardView.swift */; };
+		8469B83323FDA9530090EBEF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469B83223FDA9530090EBEF /* SettingsViewController.swift */; };
+		8469B83523FDEA2E0090EBEF /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8469B83423FDEA2E0090EBEF /* UserDefaults+Extension.swift */; };
+		AB3027F123A1EC26007BA372 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB3027F023A1EC26007BA372 /* NotificationService.swift */; };
+		AB3027F523A1EC26007BA372 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB3027EE23A1EC26007BA372 /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABDF535D23E4E31400172597 /* waitingroom.wav in Resources */ = {isa = PBXBuildFile; fileRef = ABDF535C23E4E31300172597 /* waitingroom.wav */; };
+		ABEF833D23A1C452007AC830 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEF833C23A1C452007AC830 /* signinViewController.swift */; };
+		ABEF833F23A1CC6F007AC830 /* startViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEF833E23A1CC6F007AC830 /* startViewController.swift */; };
+		BF056E2E24117ABD00E38C2E /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF056E2D24117ABD00E38C2E /* Settings.swift */; };
+		BF056E302411806F00E38C2E /* WebViewController+GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF056E2F2411806F00E38C2E /* WebViewController+GoogleLogin.swift */; };
+		BF056E322412322C00E38C2E /* TabViewController+GoogleLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF056E312412322C00E38C2E /* TabViewController+GoogleLogin.swift */; };
+		C67F84D4996BE8D730907B96 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2901C8A764BCD14FE1E8C6CF /* Pods_OneSignalNotificationServiceExtension.framework */; };
+		D013A3C8C06D411350F95914 /* Pods_MultiTabBrowserApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC30B67CB76D2DDE5046C12 /* Pods_MultiTabBrowserApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB3027F323A1EC26007BA372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18024EA4239E755F00557C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB3027ED23A1EC26007BA372;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB3027F923A1EC27007BA372 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB3027F523A1EC26007BA372 /* OneSignalNotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18024EAC239E755F00557C75 /* MultiTabBrowserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTabBrowserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18024EAF239E755F00557C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18024EB8239E756100557C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18024EBB239E756100557C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18024EBD239E756100557C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18024EC3239E760000557C75 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		18024EC8239E786900557C75 /* TabViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewModel.swift; sourceTree = "<group>"; };
+		1814229E239EE83700ED1A77 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1817F872239E929C005B98CC /* WebViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		1817F873239E929C005B98CC /* WebViewCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewCollectionViewCell.xib; sourceTree = "<group>"; };
+		1817F876239E978D005B98CC /* UIView+Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		183768D3239E9D9A007911A7 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		18C4FF0923A0006300D036FF /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		18D0959E23A02C6700741C66 /* WKWebView+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Loading.swift"; sourceTree = "<group>"; };
+		18D095A223A02EAB00741C66 /* String+WebProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+WebProtocol.swift"; sourceTree = "<group>"; };
+		213D65E6D4EA5FA46D600417 /* Pods-MultiTabBrowserApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTabBrowserApp.release.xcconfig"; path = "Target Support Files/Pods-MultiTabBrowserApp/Pods-MultiTabBrowserApp.release.xcconfig"; sourceTree = "<group>"; };
+		2901C8A764BCD14FE1E8C6CF /* Pods_OneSignalNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneSignalNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4CEF2E23A9501C007953F4 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		3C4CEF3023A954E1007953F4 /* UITextField+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+App.swift"; sourceTree = "<group>"; };
+		3C4CEF3223A95D6A007953F4 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		3C4CEF3423A966AE007953F4 /* MultiTabBrowserApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiTabBrowserApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		3C8B39AB23A91179008F84F1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3C8B39AD23A927A3008F84F1 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		3C8B39B023A93DCA008F84F1 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		3C9553B323B5F53D00D880BA /* WebViewController+FootAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+FootAction.swift"; sourceTree = "<group>"; };
+		3C9553B523B6244600D880BA /* WebViewController+OffCenterOfficial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+OffCenterOfficial.swift"; sourceTree = "<group>"; };
+		3C9553B723B6276E00D880BA /* WebViewController+FinishLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+FinishLine.swift"; sourceTree = "<group>"; };
+		3CA2D81B23B98D3F006416D5 /* UINavigationItem+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+App.swift"; sourceTree = "<group>"; };
+		3CA3227523A9BA8A00424947 /* WebViewController+YeezySupply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+YeezySupply.swift"; sourceTree = "<group>"; };
+		3CA3227723AA776500424947 /* ProfileViewController+Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProfileViewController+Delegates.swift"; sourceTree = "<group>"; };
+		3CBE6C4C23B276D8009A0460 /* WebViewController+Shopify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+Shopify.swift"; sourceTree = "<group>"; };
+		3CD99E9523ACD1B7006E9E98 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3CE6C21A23B159CF00519DA2 /* WebViewController+DicksSportingGoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+DicksSportingGoods.swift"; sourceTree = "<group>"; };
+		3CE6C21C23B15C6100519DA2 /* WebViewController+Adidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+Adidas.swift"; sourceTree = "<group>"; };
+		3CFADE5B23A86A1900A5351D /* 157611659742315354.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 157611659742315354.png; sourceTree = "<group>"; };
+		3CFADE5C23A86A1A00A5351D /* horn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = horn.wav; sourceTree = "<group>"; };
+		3CFADE5D23A86A1A00A5351D /* IMG_0955.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0955.JPG; sourceTree = "<group>"; };
+		3CFADE6123A86A2800A5351D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CFADE6423A89C1F00A5351D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		3CFADE6623A89E7900A5351D /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3FC30B67CB76D2DDE5046C12 /* Pods_MultiTabBrowserApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiTabBrowserApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F11999F8BB871C6AE95709 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		8469B83223FDA9530090EBEF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8469B83423FDEA2E0090EBEF /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+		AB3027EE23A1EC26007BA372 /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3027F023A1EC26007BA372 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		AB3027F223A1EC26007BA372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDF535C23E4E31300172597 /* waitingroom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = waitingroom.wav; sourceTree = "<group>"; };
+		ABEF833C23A1C452007AC830 /* signinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		ABEF833E23A1CC6F007AC830 /* startViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = startViewController.swift; sourceTree = "<group>"; };
+		ABEF834023A1D47A007AC830 /* MultiTabBrowserApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MultiTabBrowserApp.entitlements; sourceTree = "<group>"; };
+		B35A20A099AE2314455DE335 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B98CBC6A6E3F27F918034C0F /* Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension/Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		BF056E2D24117ABD00E38C2E /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		BF056E2F2411806F00E38C2E /* WebViewController+GoogleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewController+GoogleLogin.swift"; sourceTree = "<group>"; };
+		BF056E312412322C00E38C2E /* TabViewController+GoogleLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TabViewController+GoogleLogin.swift"; sourceTree = "<group>"; };
+		BFC5D186A812F210A7512574 /* Pods-MultiTabBrowserApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTabBrowserApp.debug.xcconfig"; path = "Target Support Files/Pods-MultiTabBrowserApp/Pods-MultiTabBrowserApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F5BD4500280AEB9C9C3158A2 /* Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension/Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18024EA9239E755F00557C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CD99E9623ACD1B7006E9E98 /* AVFoundation.framework in Frameworks */,
+				D013A3C8C06D411350F95914 /* Pods_MultiTabBrowserApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3027EB23A1EC26007BA372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67F84D4996BE8D730907B96 /* Pods_OneSignalNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC96FE533DBD427E82284D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFC5D186A812F210A7512574 /* Pods-MultiTabBrowserApp.debug.xcconfig */,
+				213D65E6D4EA5FA46D600417 /* Pods-MultiTabBrowserApp.release.xcconfig */,
+				B35A20A099AE2314455DE335 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				72F11999F8BB871C6AE95709 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				F5BD4500280AEB9C9C3158A2 /* Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				B98CBC6A6E3F27F918034C0F /* Pods-MultiTabBrowserApp-OneSignalNotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		18024EA3239E755F00557C75 = {
+			isa = PBXGroup;
+			children = (
+				3CFADE5B23A86A1900A5351D /* 157611659742315354.png */,
+				3CFADE5C23A86A1A00A5351D /* horn.wav */,
+				ABDF535C23E4E31300172597 /* waitingroom.wav */,
+				3CFADE5D23A86A1A00A5351D /* IMG_0955.JPG */,
+				18024EAE239E755F00557C75 /* MultiTabBrowserApp */,
+				AB3027EF23A1EC26007BA372 /* OneSignalNotificationServiceExtension */,
+				18024EAD239E755F00557C75 /* Products */,
+				0AC96FE533DBD427E82284D4 /* Pods */,
+				75A4AD2C8A65CD49BAEA8FEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18024EAD239E755F00557C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18024EAC239E755F00557C75 /* MultiTabBrowserApp.app */,
+				AB3027EE23A1EC26007BA372 /* OneSignalNotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18024EAE239E755F00557C75 /* MultiTabBrowserApp */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B39AF23A93DBA008F84F1 /* Models */,
+				3C8B39A723A90E9B008F84F1 /* Controllers */,
+				1817F878239E9791005B98CC /* Extensions */,
+				3CFADE6323A89C0900A5351D /* Views */,
+				18024EAF239E755F00557C75 /* AppDelegate.swift */,
+				3CFADE6123A86A2800A5351D /* GoogleService-Info.plist */,
+				ABEF834023A1D47A007AC830 /* MultiTabBrowserApp.entitlements */,
+				18024EB8239E756100557C75 /* Assets.xcassets */,
+				18024EBA239E756100557C75 /* LaunchScreen.storyboard */,
+				18024EBD239E756100557C75 /* Info.plist */,
+				1814229E239EE83700ED1A77 /* Main.storyboard */,
+				3C4CEF3223A95D6A007953F4 /* Global.swift */,
+				3C4CEF3423A966AE007953F4 /* MultiTabBrowserApp-Bridging-Header.h */,
+			);
+			path = MultiTabBrowserApp;
+			sourceTree = "<group>";
+		};
+		18024EC7239E760500557C75 /* TabViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18024EC3239E760000557C75 /* TabViewController.swift */,
+				18024EC8239E786900557C75 /* TabViewModel.swift */,
+				1817F872239E929C005B98CC /* WebViewCollectionViewCell.swift */,
+				1817F873239E929C005B98CC /* WebViewCollectionViewCell.xib */,
+				BF056E312412322C00E38C2E /* TabViewController+GoogleLogin.swift */,
+			);
+			path = TabViewController;
+			sourceTree = "<group>";
+		};
+		1817F878239E9791005B98CC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1817F876239E978D005B98CC /* UIView+Shadow.swift */,
+				18C4FF0923A0006300D036FF /* UIViewController+Alert.swift */,
+				18D0959E23A02C6700741C66 /* WKWebView+Loading.swift */,
+				18D095A223A02EAB00741C66 /* String+WebProtocol.swift */,
+				3C4CEF3023A954E1007953F4 /* UITextField+App.swift */,
+				3CA2D81B23B98D3F006416D5 /* UINavigationItem+App.swift */,
+				8469B83423FDEA2E0090EBEF /* UserDefaults+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		183768D2239E9D89007911A7 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				183768D3239E9D9A007911A7 /* WebViewController.swift */,
+				3CE6C21C23B15C6100519DA2 /* WebViewController+Adidas.swift */,
+				3CE6C21A23B159CF00519DA2 /* WebViewController+DicksSportingGoods.swift */,
+				3C9553B723B6276E00D880BA /* WebViewController+FinishLine.swift */,
+				3C9553B323B5F53D00D880BA /* WebViewController+FootAction.swift */,
+				3C9553B523B6244600D880BA /* WebViewController+OffCenterOfficial.swift */,
+				3CBE6C4C23B276D8009A0460 /* WebViewController+Shopify.swift */,
+				3CA3227523A9BA8A00424947 /* WebViewController+YeezySupply.swift */,
+				BF056E2F2411806F00E38C2E /* WebViewController+GoogleLogin.swift */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		3C8B39A723A90E9B008F84F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8469B83123FDA93C0090EBEF /* Settings */,
+				3C8B39A823A90EED008F84F1 /* Profile */,
+				ABEF833923A1C2F5007AC830 /* Login */,
+				183768D2239E9D89007911A7 /* WebViewController */,
+				18024EC7239E760500557C75 /* TabViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C8B39A823A90EED008F84F1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B39AB23A91179008F84F1 /* ProfileViewController.swift */,
+				3CA3227723AA776500424947 /* ProfileViewController+Delegates.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3C8B39AF23A93DBA008F84F1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B39B023A93DCA008F84F1 /* Profile.swift */,
+				3C4CEF2E23A9501C007953F4 /* CreditCard.swift */,
+				BF056E2D24117ABD00E38C2E /* Settings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CFADE6323A89C0900A5351D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3CFADE6423A89C1F00A5351D /* GradientView.swift */,
+				3CFADE6623A89E7900A5351D /* CardView.swift */,
+				3C8B39AD23A927A3008F84F1 /* TextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		75A4AD2C8A65CD49BAEA8FEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CD99E9523ACD1B7006E9E98 /* AVFoundation.framework */,
+				3FC30B67CB76D2DDE5046C12 /* Pods_MultiTabBrowserApp.framework */,
+				2901C8A764BCD14FE1E8C6CF /* Pods_OneSignalNotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8469B83123FDA93C0090EBEF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8469B83223FDA9530090EBEF /* SettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AB3027EF23A1EC26007BA372 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AB3027F023A1EC26007BA372 /* NotificationService.swift */,
+				AB3027F223A1EC26007BA372 /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		ABEF833923A1C2F5007AC830 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				ABEF833C23A1C452007AC830 /* signinViewController.swift */,
+				ABEF833E23A1CC6F007AC830 /* startViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18024EAB239E755F00557C75 /* MultiTabBrowserApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18024EC0239E756100557C75 /* Build configuration list for PBXNativeTarget "MultiTabBrowserApp" */;
+			buildPhases = (
+				5966CA2F1436F9FBD3E7050C /* [CP] Check Pods Manifest.lock */,
+				18024EA8239E755F00557C75 /* Sources */,
+				18024EA9239E755F00557C75 /* Frameworks */,
+				18024EAA239E755F00557C75 /* Resources */,
+				AB3027F923A1EC27007BA372 /* Embed App Extensions */,
+				2AD5386E7CD72A754239DB1E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB3027F423A1EC26007BA372 /* PBXTargetDependency */,
+			);
+			name = MultiTabBrowserApp;
+			productName = MultiTabBrowserApp;
+			productReference = 18024EAC239E755F00557C75 /* MultiTabBrowserApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB3027ED23A1EC26007BA372 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB3027F623A1EC27007BA372 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				1E2236A2E619CE65448F52C5 /* [CP] Check Pods Manifest.lock */,
+				AB3027EA23A1EC26007BA372 /* Sources */,
+				AB3027EB23A1EC26007BA372 /* Frameworks */,
+				AB3027EC23A1EC26007BA372 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = AB3027EE23A1EC26007BA372 /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18024EA4239E755F00557C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = AJB;
+				TargetAttributes = {
+					18024EAB239E755F00557C75 = {
+						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1120;
+					};
+					AB3027ED23A1EC26007BA372 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 18024EA7239E755F00557C75 /* Build configuration list for PBXProject "MultiTabBrowserApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18024EA3239E755F00557C75;
+			productRefGroup = 18024EAD239E755F00557C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18024EAB239E755F00557C75 /* MultiTabBrowserApp */,
+				AB3027ED23A1EC26007BA372 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18024EAA239E755F00557C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDF535D23E4E31400172597 /* waitingroom.wav in Resources */,
+				18024EBC239E756100557C75 /* LaunchScreen.storyboard in Resources */,
+				3CFADE6223A86A2800A5351D /* GoogleService-Info.plist in Resources */,
+				18024EB9239E756100557C75 /* Assets.xcassets in Resources */,
+				1817F875239E929C005B98CC /* WebViewCollectionViewCell.xib in Resources */,
+				3CFADE5F23A86A1A00A5351D /* horn.wav in Resources */,
+				3CFADE5E23A86A1A00A5351D /* 157611659742315354.png in Resources */,
+				1814229F239EE83700ED1A77 /* Main.storyboard in Resources */,
+				3CFADE6023A86A1A00A5351D /* IMG_0955.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3027EC23A1EC26007BA372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E2236A2E619CE65448F52C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD5386E7CD72A754239DB1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiTabBrowserApp/Pods-MultiTabBrowserApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MultiTabBrowserApp/Pods-MultiTabBrowserApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MultiTabBrowserApp/Pods-MultiTabBrowserApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5966CA2F1436F9FBD3E7050C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiTabBrowserApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18024EA8239E755F00557C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8B39B123A93DCA008F84F1 /* Profile.swift in Sources */,
+				3CFADE6723A89E7900A5351D /* CardView.swift in Sources */,
+				ABEF833D23A1C452007AC830 /* signinViewController.swift in Sources */,
+				ABEF833F23A1CC6F007AC830 /* startViewController.swift in Sources */,
+				18024EC9239E786900557C75 /* TabViewModel.swift in Sources */,
+				18024EC5239E760000557C75 /* TabViewController.swift in Sources */,
+				18024EB0239E755F00557C75 /* AppDelegate.swift in Sources */,
+				3CE6C21D23B15C6100519DA2 /* WebViewController+Adidas.swift in Sources */,
+				3C8B39AE23A927A3008F84F1 /* TextField.swift in Sources */,
+				3C4CEF3323A95D6A007953F4 /* Global.swift in Sources */,
+				3CA3227823AA776500424947 /* ProfileViewController+Delegates.swift in Sources */,
+				3CA3227623A9BA8A00424947 /* WebViewController+YeezySupply.swift in Sources */,
+				3C4CEF3123A954E1007953F4 /* UITextField+App.swift in Sources */,
+				1817F874239E929C005B98CC /* WebViewCollectionViewCell.swift in Sources */,
+				183768D5239E9D9A007911A7 /* WebViewController.swift in Sources */,
+				3CE6C21B23B159CF00519DA2 /* WebViewController+DicksSportingGoods.swift in Sources */,
+				1817F877239E978D005B98CC /* UIView+Shadow.swift in Sources */,
+				3C9553B623B6244600D880BA /* WebViewController+OffCenterOfficial.swift in Sources */,
+				3C4CEF2F23A9501C007953F4 /* CreditCard.swift in Sources */,
+				18D095A323A02EAB00741C66 /* String+WebProtocol.swift in Sources */,
+				3CFADE6523A89C1F00A5351D /* GradientView.swift in Sources */,
+				BF056E2E24117ABD00E38C2E /* Settings.swift in Sources */,
+				BF056E322412322C00E38C2E /* TabViewController+GoogleLogin.swift in Sources */,
+				3CA2D81C23B98D3F006416D5 /* UINavigationItem+App.swift in Sources */,
+				18D0959F23A02C6700741C66 /* WKWebView+Loading.swift in Sources */,
+				8469B83323FDA9530090EBEF /* SettingsViewController.swift in Sources */,
+				3CBE6C4D23B276D8009A0460 /* WebViewController+Shopify.swift in Sources */,
+				3C9553B423B5F53D00D880BA /* WebViewController+FootAction.swift in Sources */,
+				18C4FF0A23A0006300D036FF /* UIViewController+Alert.swift in Sources */,
+				BF056E302411806F00E38C2E /* WebViewController+GoogleLogin.swift in Sources */,
+				3C9553B823B6276E00D880BA /* WebViewController+FinishLine.swift in Sources */,
+				8469B83523FDEA2E0090EBEF /* UserDefaults+Extension.swift in Sources */,
+				3C8B39AC23A91179008F84F1 /* ProfileViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB3027EA23A1EC26007BA372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3027F123A1EC26007BA372 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB3027F423A1EC26007BA372 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB3027ED23A1EC26007BA372 /* OneSignalNotificationServiceExtension */;
+			targetProxy = AB3027F323A1EC26007BA372 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18024EBA239E756100557C75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18024EBB239E756100557C75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18024EBE239E756100557C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18024EBF239E756100557C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18024EC1239E756100557C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC5D186A812F210A7512574 /* Pods-MultiTabBrowserApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MultiTabBrowserApp/MultiTabBrowserApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = U5W4WNVD25;
+				INFOPLIST_FILE = MultiTabBrowserApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Motion-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiTabBrowserApp/MultiTabBrowserApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18024EC2239E756100557C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213D65E6D4EA5FA46D600417 /* Pods-MultiTabBrowserApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MultiTabBrowserApp/MultiTabBrowserApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 23;
+				DEVELOPMENT_TEAM = U5W4WNVD25;
+				INFOPLIST_FILE = MultiTabBrowserApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Motion-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MultiTabBrowserApp/MultiTabBrowserApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB3027F723A1EC27007BA372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B35A20A099AE2314455DE335 /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5W4WNVD25;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Motion-Browser.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB3027F823A1EC27007BA372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F11999F8BB871C6AE95709 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U5W4WNVD25;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Motion-Browser.OneSignalNotificationServiceExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18024EA7239E755F00557C75 /* Build configuration list for PBXProject "MultiTabBrowserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18024EBE239E756100557C75 /* Debug */,
+				18024EBF239E756100557C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18024EC0239E756100557C75 /* Build configuration list for PBXNativeTarget "MultiTabBrowserApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18024EC1239E756100557C75 /* Debug */,
+				18024EC2239E756100557C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB3027F623A1EC27007BA372 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB3027F723A1EC27007BA372 /* Debug */,
+				AB3027F823A1EC27007BA372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18024EA4239E755F00557C75 /* Project object */;
+}
